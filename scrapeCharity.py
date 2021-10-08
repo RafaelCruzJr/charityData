@@ -17,7 +17,7 @@ options=Options()
 options.add_argument('-headless')
 driver=Firefox(options=options)
 links=[]
-nameList = ["empty"]
+nameList = []
 
 charList = []
 counter=range(1,61)
